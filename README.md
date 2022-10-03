@@ -1,4 +1,4 @@
-In this part of the course you have implement a minimal version of the Unix tool Make
+In this part of the course you have implement a minimal version of the Unix tool `Make`
 in C. Make is a tool used to automate the building of
 program. Make reads a Makefile that contains rules that determine when different
 parts of the program need to be rebuilt.
@@ -100,10 +100,10 @@ If a command being executed fails (does not return `EXIT_SUCCESS`) it shall
 
 # Help material for the task
 
-For your help, the files parser.c and
-parser.h which implements a parser of the file format that should
+For your help, the files `parser.c` and
+`parser.h` which implements a parser of the file format that should
 used in the solution. The interface to the parser is the following functions (which exist
-documented in prser.h:
+documented in `prser.h`:
 
 ```c
 makefile *parse_makefile(FILE *fp);
