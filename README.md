@@ -100,10 +100,10 @@ If a command being executed fails (does not return `EXIT_SUCCESS`) it shall
 
 # Help material for the task
 
-For your help, the files [parser.c](./parser.c) and
-[parser.h](./parser.h) which implements a parser of the file format that should
+For your help, the files parser.c and
+parser.h which implements a parser of the file format that should
 used in the solution. The interface to the parser is the following functions (which exist
-documented in [parser.h](./parser.h)):
+documented in prser.h:
 
 ```c
 makefile *parse_makefile(FILE *fp);
