@@ -1,4 +1,4 @@
-In the laboratory, you will implement a minimal version of the Unix tool Make
+In this part of the course you have implement a minimal version of the Unix tool Make
 in C. Make is a tool used to automate the building of
 program. Make reads a Makefile that contains rules that determine when different
 parts of the program need to be rebuilt.
