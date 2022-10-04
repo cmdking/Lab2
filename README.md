@@ -178,8 +178,8 @@ the error message.
 In addition to the above-mentioned description, the solution must also meet the following requirements:
 
 - The program must use:
-  - `state'
-  - `fork'
+  - `state`
+  - `fork  - `state`
   - `execvp` (or other variant of `exec`)
   - `wait` (or other variant of `wait`)
 - The program must use getopt and optind to read in arguments.
