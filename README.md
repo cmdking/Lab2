@@ -172,15 +172,16 @@ If a call failed, the program should print an appropriate error message on
 *standard error* and then exit with the return code `EXIT_FAILURE`. About the call
 changing the value of `errno` on error `perror` should be used to print
 the error message.
-## Övriga krav på lösningen
 
-Utöver ovanstående nämnda beskrivning ska även lösningen uppfylla följande krav:
+## Other requirements for the solution
 
-- Programmet ska använda sig av:
-  - `stat`
-  - `fork`
-  - `execvp` (eller annan variant av `exec`)
-  - `wait` (eller annan variant av `wait`)
-- Programmet ska använda sig av getopt samt optind för att läsa in argument.
-- Programmet får ej ha några minnesläckor (använd verktyget *valgrind*).
-- Ändringar får inte göras i de tillhandahållna filerna.
+In addition to the above-mentioned description, the solution must also meet the following requirements:
+
+- The program must use:
+  - `state'
+  - `fork'
+  - `execvp` (or other variant of `exec`)
+  - `wait` (or other variant of `wait`)
+- The program must use getopt and optind to read in arguments.
+- The program must not have any memory leaks (use the *valgrind* tool).
+- Changes may not be made to the provided files.
